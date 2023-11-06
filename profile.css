@@ -1,0 +1,247 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
+}
+
+html {
+  color: white;
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+a {
+  transition: all 300ms ease;
+}
+
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-decoration-color: rgb(116, 87, 35);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section__pic img {
+  border-radius: 40%;
+  box-shadow: #333 0px 0px 10px;
+}
+
+.section__pic {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p2 {
+  font-size: 1.7rem;
+  color: #ffff
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+#about {
+  position: relative;
+  margin-top:1rem;
+  margin-bottom: 3rem;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-detail-container {
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.details-container p{
+    font-size: 1rem;
+}
+.about-containers,
+.about-detail-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.details-container p{
+  color: white;
+}
+
+
+
+.section__pic {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.details-container img {
+  width: 560px;
+  border-radius: 30px;
+  box-shadow: #333 0px 0px 10px;
+}
+
+#experience {
+  position: relative;
+}
+
+.experience-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.article-container article i {
+  width: 30px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+.contact-info-container img {
+  width: 50px;
+
+}
+
+.experience-title p {
+  color: #ffff;
+}
+.experience-title{
+  color:white
+}
+.mai:hover{
+    color: black;
+    transition: .3s ease-in-out;
+}
+.facebook:hover{
+    color: MediumBlue;
+    transition: .3s ease-in-out;
+
+}
+.section__pic img:hover{
+    transform: scale(1.2);
+    transition: .4s ease-in-out;
+}
