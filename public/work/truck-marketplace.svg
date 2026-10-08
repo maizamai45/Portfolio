@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200">
+  <rect width="1600" height="1200" fill="#f1e6d6"/>
+  <g transform="translate(200 170)">
+    <rect width="1200" height="860" rx="18" fill="#fffcf7"/>
+    <rect x="50" y="44" width="140" height="22" rx="11" fill="#e07a2f"/>
+    <rect x="760" y="36" width="390" height="40" rx="20" fill="#f4ece0"/>
+    <rect x="50" y="120" width="340" height="340" rx="16" fill="#f4ece0"/>
+    <rect x="430" y="120" width="340" height="340" rx="16" fill="#f4ece0"/>
+    <rect x="810" y="120" width="340" height="340" rx="16" fill="#f4ece0"/>
+    <defs>
+    <g id="truck" fill="#2b2b2b">
+      <rect x="0" y="0" width="150" height="80" rx="6" fill="#e07a2f"/>
+      <path d="M150 20 h50 l30 32 v28 h-80 z" fill="#2b2b2b"/>
+      <rect x="160" y="28" width="30" height="20" rx="3" fill="#cfe3f0"/>
+      <circle cx="45" cy="92" r="20"/>
+      <circle cx="185" cy="92" r="20"/>
+      <circle cx="45" cy="92" r="8" fill="#f4ece0"/>
+      <circle cx="185" cy="92" r="8" fill="#f4ece0"/>
+    </g>
+    </defs>
+    <use href="#truck" x="105" y="200"/>
+    <use href="#truck" x="485" y="200"/>
+    <use href="#truck" x="865" y="200"/>
+    <g fill="#2b2b2b">
+      <rect x="50" y="490" width="200" height="18" rx="9"/>
+      <rect x="430" y="490" width="170" height="18" rx="9"/>
+      <rect x="810" y="490" width="210" height="18" rx="9"/>
+    </g>
+    <g fill="#e07a2f">
+      <rect x="50" y="526" width="120" height="26" rx="8"/>
+      <rect x="430" y="526" width="140" height="26" rx="8"/>
+      <rect x="810" y="526" width="110" height="26" rx="8"/>
+    </g>
+    <rect x="50" y="620" width="1100" height="190" rx="16" fill="#f4ece0"/>
+    <g fill="#c9b9a3">
+      <rect x="90" y="660" width="160" height="14" rx="7"/>
+      <rect x="90" y="700" width="420" height="14" rx="7"/>
+      <rect x="90" y="740" width="360" height="14" rx="7"/>
+    </g>
+    <rect x="930" y="682" width="180" height="56" rx="28" fill="#2b2b2b"/>
+  </g>
+</svg>
