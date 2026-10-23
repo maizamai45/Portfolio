@@ -44,12 +44,12 @@ function Stats() {
 
 function TechStack() {
   return (
-    <div className="lg:border-l lg:border-line lg:pl-10">
+    <div className="max-w-md lg:max-w-none lg:border-l lg:border-line lg:pl-10">
       <h2 className="mb-5 text-base text-accent lg:text-lg">Tech Stack</h2>
-      <dl className="space-y-3 lg:space-y-4">
+      <dl className="space-y-4">
         {skills.map((skill) => (
-          <div key={skill.group} className="flex gap-4">
-            <dt className="w-20 shrink-0 pt-0.5 text-xs text-muted">
+          <div key={skill.group} className="flex flex-col gap-2 sm:flex-row sm:gap-4">
+            <dt className="shrink-0 text-xs text-muted sm:w-20 sm:pt-0.5">
               {skill.group}
             </dt>
             <dd className="flex flex-wrap gap-1.5">

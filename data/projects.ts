@@ -83,6 +83,5 @@ export const projects: Project[] = [
     ],
     stack: ["Next.js", "NestJS", "MongoDB", "SlipOK API"],
     image: "/work/salon-booking.svg",
-    href: "https://chatmana.ai/",
   },
 ];

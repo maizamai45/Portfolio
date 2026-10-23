@@ -37,7 +37,7 @@ export function Nav({ items }: { items: { label: string; href: string }[] }) {
   }, [items]);
 
   return (
-    <nav className="flex gap-6 sm:gap-8">
+    <nav className="flex shrink-0 gap-4 sm:gap-8">
       {items.map((item) => {
         const isActive = active === item.href.slice(1);
         return (
