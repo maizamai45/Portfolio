@@ -14,6 +14,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "ระบบการเงินมหาวิทยาลัย",
+    duration: "Jan 2024 – Mar 2025",
     type: "งานประจำ",
     description:
       "พัฒนาโมดูลหลักของระบบบัญชีการเงินระดับองค์กร หน้าบ้านใช้ Angular หลังบ้านใช้ .NET Core และฐานข้อมูล PostgreSQL",
@@ -27,6 +28,7 @@ export const projects: Project[] = [
   },
   {
     title: "ระบบซื้อขายรถบรรทุก",
+    duration: "Mar 2025 – Oct 2025",
     type: "Freelance",
     role: "Full Stack Developer",
     description: "แพลตฟอร์มซื้อขายรถบรรทุก พร้อมระบบจัดการหนี้",
@@ -36,6 +38,7 @@ export const projects: Project[] = [
   },
   {
     title: "ปรับแต่ง Label Studio (NECTEC)",
+    duration: "Mar 2025 – Oct 2025",
     type: "Freelance",
     description:
       "เพิ่มฟีเจอร์ให้ Annotation Tool ตีกรอบบทความ และ mapping ความสัมพันธ์แบบ Parent–Child",
@@ -43,17 +46,8 @@ export const projects: Project[] = [
     image: "/work/label-studio.svg",
   },
   {
-    title: "โปรแกรมฝึกภาษาอังกฤษ",
-    type: "Freelance",
-    role: "Frontend",
-    description:
-      "เชื่อมต่อและจัดการข้อมูลระหว่าง Frontend และ Backend ผ่าน REST API เพื่อรองรับการอัปเดตความคืบหน้าการเรียนรู้แบบเรียลไทม์ รวมถึงระบบประเมินผลจากเสียงและข้อความ",
-    modules: ["ฝึกการพูดภาษาอังกฤษ", "สรุปคะแนนการฝึก"],
-    stack: ["Next.js", "TypeScript", "MongoDB", "REST API"],
-    image: "/work/english-speaking.svg",
-  },
-  {
     title: "ระบบรับสมัครนักศึกษาพยาบาล",
+    duration: "Oct 2025 – Mar 2026",
     type: "งานประจำ",
     description:
       "พัฒนาแพลตฟอร์มระบบรับสมัครและลงทะเบียนนักศึกษา ส่วนติดต่อผู้ใช้งาน (UI) เป็นแบบ Server-Side Rendering ที่มีประสิทธิภาพ พร้อมพัฒนา Business Logic ฝั่ง Backend ด้วย ASP.NET MVC และ C#",
@@ -70,7 +64,19 @@ export const projects: Project[] = [
     image: "/work/nursing-admission.svg",
   },
   {
+    title: "โปรแกรมฝึกภาษาอังกฤษ",
+    duration: "Mar 2026 – Present",
+    type: "Freelance",
+    role: "Frontend",
+    description:
+      "เชื่อมต่อและจัดการข้อมูลระหว่าง Frontend และ Backend ผ่าน REST API เพื่อรองรับการอัปเดตความคืบหน้าการเรียนรู้แบบเรียลไทม์ รวมถึงระบบประเมินผลจากเสียงและข้อความ",
+    modules: ["ฝึกการพูดภาษาอังกฤษ", "สรุปคะแนนการฝึก"],
+    stack: ["Next.js", "TypeScript", "MongoDB", "REST API"],
+    image: "/work/english-speaking.svg",
+  },
+  {
     title: "ระบบจองคิวของร้านค้า",
+    duration: "Mar 2026 – Present",
     description:
       "พัฒนาระบบ Dashboard สำหรับร้านค้า (Merchant) และผู้ดูแลระบบ (Admin) แบบครบวงจร รองรับการจัดการนัดหมายร้านเสริมสวย การจัดการบริการ และข้อมูลลูกค้า เชื่อมต่อ SlipOK API ตรวจสอบสลิปการโอนเงินอัตโนมัติแบบเรียลไทม์ เพื่อป้องกันการปลอมแปลงหลักฐานการชำระเงิน รวมถึงดูแลระบบ (Maintenance) ติดตามประสิทธิภาพ (Performance Monitoring) และพัฒนาฟีเจอร์ใหม่อย่างต่อเนื่อง",
     modules: [

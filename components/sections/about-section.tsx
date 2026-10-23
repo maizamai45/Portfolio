@@ -1,6 +1,7 @@
 import { profile } from "@/data/profile";
 import { projects } from "@/data/projects";
 import { skills } from "@/data/skills";
+import { Experience } from "@/components/ui/experience";
 
 export function AboutSection() {
   return (
@@ -26,7 +27,7 @@ export function AboutSection() {
 
 function Stats() {
   const stats = [
-    { value: profile.experienceTotal, label: "ประสบการณ์ทำงาน" },
+    { value: <Experience />, label: "ประสบการณ์ทำงาน" },
     { value: `${projects.length} โปรเจกต์`, label: "งานประจำและ Freelance" },
   ];
 
